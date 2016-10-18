@@ -24,3 +24,4 @@
 class MyComponent extends React.Component { render() }
 
 ### Alternative ways to create a React component: stateless functional component
+const MyComponent = () => { return <div>...</div> }

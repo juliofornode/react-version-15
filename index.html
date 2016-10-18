@@ -13,14 +13,24 @@
 
     <script type="text/babel">
 
-        class MyComponent extends React.Component {
+        /* Stateless component way: */
+        const MyComponent = () => {
+                return <div>
+                <h1>Aviso</h1>
+                <p>Estoy hasta los huevos de estudiar y no pasar de primero.</p>
+                </div>
+        }
+
+        /* ES6 way: */
+
+        /*class MyComponent extends React.Component {
             render() {
                 return <div>
                 <h1>Aviso</h1>
                 <p>Estoy hasta los huevos de estudiar y no pasar de primero.</p>
                 </div>
             }
-        }
+        }*/
 
         /* Traditional way: */
 
